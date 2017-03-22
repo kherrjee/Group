@@ -112,22 +112,22 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 	 */
 	public function open($save_path, $name)
 	{
-		// if ( ! is_dir($save_path))
-		// {
-		// 	// if ( ! mkdir($save_path, 0700, TRUE))
-		// 	// {
-		// 	// 	throw new Exception("Session: Configured save path '".$this->_config['save_path']."' is not a directory, doesn't exist or cannot be created.");
-		// 	// }
-		// }
-		// elseif ( ! is_writable($save_path))
-		// {
-		// 	throw new Exception("Session: Configured save path '".$this->_config['save_path']."' is not writable by the PHP process.");
-		// }
+		if ( ! is_dir($save_path))
+		{
+			// if ( ! mkdir($save_path, 0700, TRUE))
+			// {
+			// 	throw new Exception("Session: Configured save path '".$this->_config['save_path']."' is not a directory, doesn't exist or cannot be created.");
+			// }
+		}
+		elseif ( ! is_writable($save_path))
+		{
+			throw new Exception("Session: Configured save path '".$this->_config['save_path']."' is not writable by the PHP process.");
+		}
 
-		// $this->_config['save_path'] = $save_path;
-		// $this->_file_path = $this->_config['save_path'].DIRECTORY_SEPARATOR
-		// 	.$name // we'll use the session cookie name as a prefix to avoid collisions
-		// 	.($this->_config['match_ip'] ? md5($_SERVER['REMOTE_ADDR']) : '');
+		$this->_config['save_path'] = $save_path;
+		$this->_file_path = $this->_config['save_path'].DIRECTORY_SEPARATOR
+			.$name // we'll use the session cookie name as a prefix to avoid collisions
+			.($this->_config['match_ip'] ? md5($_SERVER['REMOTE_ADDR']) : '');
 
 		return TRUE;
 	}
@@ -153,7 +153,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 				// so we'd have to hack around this ...
 				if (($this->_file_new = ! file_exists($this->_file_path.$session_id)) === TRUE)
 				{
-				if (($this->_file_handle = fopen($this->_file_path.$session_id, 'w+b')) === FALSE)
+				if (@($this->_file_handle = fopen($this->_file_path.$session_id, 'w+b')) === FALSE)
 				{
 					log_message('error', "Session: File '".$this->_file_path.$session_id."' doesn't exist and cannot be created.");
 					return FALSE;
@@ -189,7 +189,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 		}
 
 		$session_data = '';
-		for ($read = 0, $length = filesize($this->_file_path.$session_id); $read < $length; $read += strlen($buffer))
+		for ($read = 0, $length = @filesize($this->_file_path.$session_id); $read < $length; $read += strlen($buffer))
 		{
 			if (($buffer = fread($this->_file_handle, $length - $read)) === FALSE)
 			{

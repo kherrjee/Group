@@ -30,90 +30,91 @@
 </html>
 <script type="text/javascript">
     $('#signIn').click(function() {
-        var data_upd = $('#log').serialize();
-        alert('nico');
-        $.ajax({
-            type: 'GET',
-            url: 'login/login',
-            data: {
-                data_upd: data_upd
-            },
-            success: function(success) {
-                // alert(success);
-                if (success === '2') {
-                    window.location = 'dashboard';
-                } else if (success === '1') {
-                    window.location = 'userDashboard';
-                } else if (success === '0') {
-                    $('.message').css("display", "block");
-                    $('.message').css("font-weight", "bold");
-                    $('.message').css("text-align", "center");
-                    $('.message').css("color", "red");
-                    $('.message').text("*Wrong Username or password ");
-                    $('.uname').val('');
-                    $('.pass').val('');
-                }
-            }
-        });
+      alert('nico');
+        // var data_upd = $('#log').serialize();
+        // alert('nico');
+        // $.ajax({
+        //     type: 'GET',
+        //     url: 'login/login',
+        //     data: {
+        //         data_upd: data_upd
+        //     },
+        //     success: function(success) {
+        //         // alert(success);
+        //         if (success === '2') {
+        //             window.location = 'dashboard';
+        //         } else if (success === '1') {
+        //             window.location = 'userDashboard';
+        //         } else if (success === '0') {
+        //             $('.message').css("display", "block");
+        //             $('.message').css("font-weight", "bold");
+        //             $('.message').css("text-align", "center");
+        //             $('.message').css("color", "red");
+        //             $('.message').text("*Wrong Username or password ");
+        //             $('.uname').val('');
+        //             $('.pass').val('');
+        //         }
+        //     }
+        // });
     });
 
     $('.uname').keydown(function(e) {
-        var data_upd = $('#log').serialize();
-        if (e.keyCode == 13) {
+        // var data_upd = $('#log').serialize();
+        // if (e.keyCode == 13) {
 
-            $.ajax({
-                type: 'GET',
-                url: 'login/login',
-                data: {
-                    data_upd: data_upd
-                },
-                success: function(success) {
-                    if (success === '2') {
-                        window.location = 'dashboard';
-                    } else if (success === '1') {
-                        window.location = 'userDashboard';
-                    } else if (success === '0') {
-                        $('.message').css("display", "block");
-                        $('.message').css("font-weight", "bold");
-                        $('.message').css("text-align", "center");
-                        $('.message').css("color", "red");
-                        $('.message').text("*Wrong Username or password ");
-                        $('.uname').val('');
-                        $('.pass').val('');
-                    }
-                }
-            });
+        //     $.ajax({
+        //         type: 'GET',
+        //         url: 'login/login',
+        //         data: {
+        //             data_upd: data_upd
+        //         },
+        //         success: function(success) {
+        //             if (success === '2') {
+        //                 window.location = 'dashboard';
+        //             } else if (success === '1') {
+        //                 window.location = 'userDashboard';
+        //             } else if (success === '0') {
+        //                 $('.message').css("display", "block");
+        //                 $('.message').css("font-weight", "bold");
+        //                 $('.message').css("text-align", "center");
+        //                 $('.message').css("color", "red");
+        //                 $('.message').text("*Wrong Username or password ");
+        //                 $('.uname').val('');
+        //                 $('.pass').val('');
+        //             }
+        //         }
+        //     });
 
-        }
+        // }
     });
      $('.pass').keydown(function(e) {
-        var data_upd = $('#log').serialize();
-        if (e.keyCode == 13) {
+        // var data_upd = $('#log').serialize();
+        // if (e.keyCode == 13) {
 
-            $.ajax({
-                type: 'GET',
-                url: 'login/login',
-                data: {
-                    data_upd: data_upd
-                },
-                success: function(success) {
-                    // alert(success);
-                    if (success === '2') {
-                        window.location = 'dashboard';
-                    } else if (success === '1') {
-                        window.location = 'userDashboard';
-                    } else if (success === '0') {
-                        $('.message').css("display", "block");
-                        $('.message').css("font-weight", "bold");
-                        $('.message').css("text-align", "center");
-                        $('.message').css("color", "red");
-                        $('.message').text("*Wrong Username or password ");
-                        $('.uname').val('');
-                        $('.pass').val('');
-                    }
-                }
-            });
+        //     $.ajax({
+        //         type: 'GET',
+        //         url: 'login/login',
+        //         data: {
+        //             data_upd: data_upd
+        //         },
+        //         success: function(success) {
+        //             // alert(success);
+        //             if (success === '2') {
+        //                 window.location = 'dashboard';
+        //             } else if (success === '1') {
+        //                 window.location = 'userDashboard';
+        //             } else if (success === '0') {
+        //                 $('.message').css("display", "block");
+        //                 $('.message').css("font-weight", "bold");
+        //                 $('.message').css("text-align", "center");
+        //                 $('.message').css("color", "red");
+        //                 $('.message').text("*Wrong Username or password ");
+        //                 $('.uname').val('');
+        //                 $('.pass').val('');
+        //             }
+        //         }
+        //     });
 
-        }
+        // }
     });
 </script>

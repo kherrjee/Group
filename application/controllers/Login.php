@@ -22,7 +22,7 @@ class Login extends CI_Controller
 				redirect('userDashboard');
 			}
 		}else{
-			$this->load->view('login');
+			$this->load->view('pages/login_module/login_view');
 			$this->load->view('common/foot');
 		}
 	}
