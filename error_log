@@ -1,0 +1,105 @@
+[09-Mar-2016 06:55:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/application/helpers/asset_helper.php on line 151
+[09-Mar-2016 06:55:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/application/helpers/asset_helper.php on line 151
+[09-Mar-2016 07:04:36 UTC] PHP Fatal error:  Class 'MY_Router' not found in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 196
+[21-Mar-2016 06:25:55 UTC] PHP Warning:  Unterminated comment starting line 51 in /home2/betaproj/public_html/sales_sys/application/config/constants.php on line 51
+[21-Mar-2016 06:30:05 UTC] PHP Fatal error:  Call to undefined function is_php() in /home2/betaproj/public_html/sales_sys/system/core/CodeIgniter.php on line 86
+[21-Mar-2016 06:30:05 UTC] PHP Warning:  Unterminated comment starting line 80 in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 80
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 84
+[21-Mar-2016 06:30:05 UTC] PHP Warning:  Unterminated comment starting line 80 in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 80
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 84
+[21-Mar-2016 06:30:05 UTC] PHP Warning:  Unterminated comment starting line 80 in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 80
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 84
+[21-Mar-2016 06:30:05 UTC] PHP Warning:  Unterminated comment starting line 80 in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 80
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 84
+[21-Mar-2016 06:30:05 UTC] PHP Warning:  Unterminated comment starting line 80 in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 80
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 84
+[21-Mar-2016 06:30:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 328
+[21-Mar-2016 06:30:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 660
+[21-Mar-2016 06:30:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 660
+[21-Mar-2016 06:30:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 660
+[21-Mar-2016 06:30:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 660
+[21-Mar-2016 06:30:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/system/core/Common.php on line 660
+[30-Mar-2016 06:55:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/betaproj/public_html/sales_sys/application/views/pages/proposals/proposals_list.php on line 53
+[06-Apr-2016 08:14:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home2/betaproj/public_html/sales_sys/application/controllers/Sales.php on line 90
+[06-Apr-2016 09:02:50 UTC] PHP Fatal error:  Call to undefined function fetch() in /home2/betaproj/public_html/sales_sys/application/models/MdSales.php on line 31
+[06-Apr-2016 09:03:27 UTC] PHP Fatal error:  Call to undefined function fetchAll() in /home2/betaproj/public_html/sales_sys/application/models/MdSales.php on line 31
+[06-Apr-2016 09:03:30 UTC] PHP Fatal error:  Call to undefined function fetchAll() in /home2/betaproj/public_html/sales_sys/application/models/MdSales.php on line 31
+[21-Feb-2017 21:13:34 UTC] PHP Fatal error:  Call to a member function process() on null in /home2/betaproj/public_html/HRIS/application/controllers/LeaveForm.php on line 56
+[21-Feb-2017 21:13:53 UTC] PHP Fatal error:  Call to a member function process() on null in /home2/betaproj/public_html/HRIS/application/controllers/LeaveForm.php on line 56
+[21-Feb-2017 21:16:50 UTC] PHP Fatal error:  Call to undefined method Ot_form_model::delete_ot() in /home2/betaproj/public_html/HRIS/application/controllers/OtRequest.php on line 69
+[21-Feb-2017 21:16:59 UTC] PHP Fatal error:  Call to undefined method Ot_form_model::delete_ot() in /home2/betaproj/public_html/HRIS/application/controllers/OtRequest.php on line 69
+[21-Feb-2017 21:27:42 UTC] PHP Fatal error:  Call to a member function getOtList() on null in /home2/betaproj/public_html/HRIS/application/controllers/OtHistory.php on line 48
+[21-Feb-2017 21:28:08 UTC] PHP Fatal error:  Call to a member function getOtList() on null in /home2/betaproj/public_html/HRIS/application/controllers/OtHistory.php on line 48
+[21-Feb-2017 21:30:15 UTC] PHP Fatal error:  Call to undefined method Ot_form_model::delete_ot() in /home2/betaproj/public_html/HRIS/application/controllers/OtRequest.php on line 69
+[21-Feb-2017 21:33:50 UTC] PHP Fatal error:  Call to undefined method Suspension_form_model::getEmpInfo() in /home2/betaproj/public_html/HRIS/application/controllers/EmployeeSuspended.php on line 48
+[21-Feb-2017 21:34:38 UTC] PHP Fatal error:  Call to undefined method Suspension_form_model::getEmpInfo() in /home2/betaproj/public_html/HRIS/application/controllers/EmployeeSuspended.php on line 48
+[22-Feb-2017 00:14:06 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 00:34:52 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 01:37:08 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 03:35:41 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 03:36:59 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 06:20:08 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 06:20:30 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 09:36:27 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING) in /home2/betaproj/public_html/HRIS/application/controllers/LeaveForm.php on line 80
+[22-Feb-2017 09:36:36 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING) in /home2/betaproj/public_html/HRIS/application/controllers/LeaveForm.php on line 80
+[22-Feb-2017 09:36:56 UTC] PHP Parse error:  syntax error, unexpected 'redirect' (T_STRING) in /home2/betaproj/public_html/HRIS/application/controllers/LeaveForm.php on line 80
+[22-Feb-2017 15:34:13 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 15:35:19 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 16:18:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 55
+[22-Feb-2017 16:19:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 55
+[22-Feb-2017 16:24:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 16
+[22-Feb-2017 16:26:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 16
+[22-Feb-2017 16:27:17 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 16
+[22-Feb-2017 16:27:31 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 16
+[22-Feb-2017 16:27:48 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home2/betaproj/public_html/HRIS/application/controllers/Dashboard.php on line 16
+[22-Feb-2017 16:30:05 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 17:30:33 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[22-Feb-2017 18:30:35 UTC] PHP Fatal error:  Call to a member function getProfile() on null in /home2/betaproj/public_html/HRIS/application/controllers/UserProfile.php on line 45
+[22-Feb-2017 18:31:23 UTC] PHP Fatal error:  Call to a member function getProfile() on null in /home2/betaproj/public_html/HRIS/application/controllers/UserProfile.php on line 45
+[23-Feb-2017 01:07:25 UTC] PHP Fatal error:  Call to a member function getActivity() on null in /home2/betaproj/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[04-Mar-2017 11:42:01 UTC] PHP Fatal error:  Call to a member function getDepartment() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[04-Mar-2017 11:42:21 UTC] PHP Fatal error:  Call to a member function getDepartment() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 48
+[04-Mar-2017 11:45:14 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[04-Mar-2017 11:46:44 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[06-Mar-2017 02:08:21 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[08-Mar-2017 09:10:15 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 09:18:13 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 09:20:17 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 09:20:49 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 09:31:09 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:26:32 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:32:16 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:32:24 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:32:43 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:34:13 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:34:29 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:34:32 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[09-Mar-2017 16:34:59 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[10-Mar-2017 02:23:08 UTC] PHP Fatal error:  Call to undefined method Leave_form_model::getRequestData() in /home2/myoptimind/public_html/HRIS/application/controllers/LeaveRequest.php on line 76
+[10-Mar-2017 02:38:24 UTC] PHP Fatal error:  Cannot redeclare Leave_form_model::getList() in /home2/myoptimind/public_html/HRIS/application/models/Leave_form_model.php on line 105
+[10-Mar-2017 02:43:44 UTC] PHP Parse error:  syntax error, unexpected 'angelicaintes1209' (T_STRING), expecting ']' in /home2/myoptimind/public_html/HRIS/application/controllers/LeaveRequest.php on line 92
+[10-Mar-2017 02:53:03 UTC] PHP Parse error:  syntax error, unexpected 'email' (T_STRING) in /home2/myoptimind/public_html/HRIS/application/controllers/LeaveRequest.php on line 91
+[10-Mar-2017 02:53:04 UTC] PHP Parse error:  syntax error, unexpected 'email' (T_STRING) in /home2/myoptimind/public_html/HRIS/application/controllers/LeaveRequest.php on line 91
+[10-Mar-2017 04:16:48 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 9
+[10-Mar-2017 04:18:53 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 8
+[10-Mar-2017 04:26:33 UTC] PHP Fatal error:  Call to a member function getPayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 57
+[10-Mar-2017 04:27:30 UTC] PHP Fatal error:  Call to a member function getPayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 57
+[10-Mar-2017 04:29:23 UTC] PHP Fatal error:  Call to undefined method AgorraPayroll::generatePayroll() in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 53
+[10-Mar-2017 04:45:46 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 77
+[10-Mar-2017 04:45:50 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 77
+[10-Mar-2017 04:46:17 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 77
+[10-Mar-2017 04:46:21 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 77
+[10-Mar-2017 04:48:16 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 78
+[10-Mar-2017 04:49:24 UTC] PHP Fatal error:  Call to a member function generatePayroll() on null in /home2/myoptimind/public_html/HRIS/application/controllers/AgorraPayroll.php on line 78
+[10-Mar-2017 05:06:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/myoptimind/public_html/HRIS/application/controllers/UploadCsv.php on line 398
+[17-Mar-2017 23:23:20 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 8
+[17-Mar-2017 23:23:35 UTC] PHP Fatal error:  Call to a member function helper() on null in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 8
+[17-Mar-2017 23:25:38 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 15
+[17-Mar-2017 23:26:00 UTC] PHP Parse error:  syntax error, unexpected '$public' (T_VARIABLE), expecting function (T_FUNCTION) in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 14
+[17-Mar-2017 23:26:20 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 63
+[17-Mar-2017 23:27:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 63
+[17-Mar-2017 23:32:38 UTC] PHP Fatal error:  Call to undefined method AgorraPayroll::generatePayroll() in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 56
+[17-Mar-2017 23:34:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 86
+[17-Mar-2017 23:34:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 88
+[17-Mar-2017 23:34:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 86
+[17-Mar-2017 23:34:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/myoptimind/public_html/Finallyv1/Finallyv1/application/controllers/AgorraPayroll.php on line 87
