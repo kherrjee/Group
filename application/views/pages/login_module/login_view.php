@@ -13,7 +13,7 @@
    <body id="login" class="blurred-bg" background="./assets/img/background.png">
       <div class="container">
          <div class="info">
-            <h1>MY OPTIMIND</h1>
+            <h1>MY OPTIMIND </h1>
          </div>
       </div>
       <div class="form" >
